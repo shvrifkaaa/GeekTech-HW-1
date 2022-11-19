@@ -38,4 +38,8 @@ console.log(count);
 // * Напишите функцию капитализации строк. 
 // Капитализация - это механизм форматирования строки, так чтобы первая буква была заглавной,
 //  а остальные строчные. Выглядит он так:  
-// CapitalizeString("еВГЕНИЙ") -> "Евгений", CapitalizeString("КиСеЛеВ") -> "Киселев".  
+// CapitalizeString("еВГЕНИЙ") -> "Евгений", CapitalizeString("КиСеЛеВ") -> "Киселев". 
+
+let text = prompt('input ur word')
+
+console.log(text[0].toUpperCase() + text.slice(1).toLowerCase());
